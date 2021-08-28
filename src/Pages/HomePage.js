@@ -49,11 +49,11 @@ function HomePage() {
         <Container align="center" className={classes.container}>
           <div>
             <Typography variant="h3" className={classes.mainTypography}>
-              Student and Front-end Developer
+              Front-end Developer
             </Typography>
             <Typography variant="h5" className={classes.secTypography}>
-              I am a Student and I code beautifully simple things, and I love
-              what I do.
+              I am a Front-end Web Developer and I code beautifully simple
+              things, and I love what I do.
             </Typography>
           </div>
           <img alt="#" src={avatar} className={classes.img} />

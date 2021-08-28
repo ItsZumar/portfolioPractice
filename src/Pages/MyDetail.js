@@ -49,12 +49,10 @@ function MyDetail() {
           Hi, I’m Zumar. Nice to meet you.
         </Typography>
         <Typography variant="h6" className={classes.detailTypography}>
-          Since beginning my journey as a freelance designer nearly 10 years
-          ago, I've done remote work for agencies, consulted for startups, and
-          collaborated with talented people to create digital products for both
-          business and consumer use. I'm quietly confident, naturally curious,
-          and perpetually working on improving my chops one design problem at a
-          time.
+          I am 21 year old doing Software Engineer from Rawalpindi, PK. Since
+          beginning my journey as a Website Developer nearly 2 years ago, I have
+          learnt basics of HTML, CSS, JS, React and material-ui and also trying
+          to learn new things.
         </Typography>
       </Grid>
       <Container style={{ marginTop: -170 }}>
