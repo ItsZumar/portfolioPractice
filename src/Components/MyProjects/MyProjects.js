@@ -167,7 +167,10 @@ function MyProjects() {
                   <GitHubIcon />
                   Github
                 </a>
-                <a href="#" className={classes.linkView}>
+                <a
+                  href="https://github.com/ItsZumar/Todo-App"
+                  className={classes.linkView}
+                >
                   <VisibilityIcon />
                   View Live
                 </a>
@@ -205,7 +208,10 @@ function MyProjects() {
                   <GitHubIcon />
                   Github
                 </a>
-                <a href="#" className={classes.linkView}>
+                <a
+                  href="https://github.com/ItsZumar/Material-Table"
+                  className={classes.linkView}
+                >
                   <VisibilityIcon />
                   View Live
                 </a>
