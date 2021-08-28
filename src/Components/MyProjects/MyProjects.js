@@ -161,7 +161,7 @@ function MyProjects() {
                 }}
               >
                 <a
-                  href="https://github.com/ItsZumar/Todo-App/blob/main/src/ToDo.js"
+                  href="https://github.com/ItsZumar/Todo-App"
                   className={classes.link}
                 >
                   <GitHubIcon />
@@ -202,7 +202,7 @@ function MyProjects() {
                 }}
               >
                 <a
-                  href="https://github.com/ItsZumar/Material-Table/tree/main/src"
+                  href="https://github.com/ItsZumar/Material-Table"
                   className={classes.link}
                 >
                   <GitHubIcon />
