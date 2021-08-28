@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  Grid,
-  makeStyles,
-  Typography,
-} from "@material-ui/core";
-import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import { Card, CardContent, makeStyles, Typography } from "@material-ui/core";
 import CodeIcon from "@material-ui/icons/Code";
 
 const useStyles = makeStyles((theme) => ({
@@ -53,7 +46,7 @@ function CardDetail() {
     <div className={classes.div}>
       <Card className={classes.card} align="center">
         <CardContent>
-          <AccountCircleIcon className={classes.icon} />
+          <CodeIcon className={classes.icon} />
           <Typography variant="h4" className={classes.heading}>
             Front-end Web Developer
           </Typography>
