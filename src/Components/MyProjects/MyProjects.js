@@ -167,10 +167,7 @@ function MyProjects() {
                   <GitHubIcon />
                   Github
                 </a>
-                <a
-                  href="https://e-commerce12.netlify.app/"
-                  className={classes.linkView}
-                >
+                <a href="#" className={classes.linkView}>
                   <VisibilityIcon />
                   View Live
                 </a>
@@ -208,10 +205,7 @@ function MyProjects() {
                   <GitHubIcon />
                   Github
                 </a>
-                <a
-                  href="https://e-commerce12.netlify.app/"
-                  className={classes.linkView}
-                >
+                <a href="#" className={classes.linkView}>
                   <VisibilityIcon />
                   View Live
                 </a>
