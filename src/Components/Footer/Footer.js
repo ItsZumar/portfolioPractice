@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Container, makeStyles, Typography } from "@material-ui/core";
+import logo from "../../Images/OriginalLogo.png";
+
 import TwitterIcon from "@material-ui/icons/Twitter";
 import FacebookIcon from "@material-ui/icons/Facebook";
 import GitHubIcon from "@material-ui/icons/GitHub";
@@ -40,9 +42,7 @@ function Footer() {
         className={classes.mainDiv}
       >
         <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          <Typography variant="h3" className={classes.margin}>
-            ZS
-          </Typography>
+          <img src={logo} alt="#" style={{ width: 90, marginBottom: 10 }} />
         </Link>
         <Typography variant="h5" className={classes.margin}>
           Living, learning, & leveling up one day at a time.

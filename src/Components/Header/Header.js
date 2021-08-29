@@ -2,6 +2,7 @@ import { makeStyles, Toolbar } from "@material-ui/core";
 import { AppBar, Typography } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "../../Images/OriginalLogo.png";
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -56,7 +57,8 @@ function Header() {
       <Toolbar>
         <div className={classes.container}>
           <Link to="/" className={classes.logo}>
-            <Typography variant="h3">ZS</Typography>
+            {/* <Typography variant="h3">ZS</Typography> */}
+            <img src={logo} alt="#" style={{ width: 90 }} />
           </Link>
           <div className={classes.headerLinks}>
             <Link to="/contact" style={{ textDecoration: "none" }}>
